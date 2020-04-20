@@ -24,7 +24,7 @@ def cont():
 def end():
     print("\nOk, mamy to. Losowacz wygenerował Twoją przypadkową listę:")
     tries = len(data)
-    while tries > 0:
+    while data:
         losowacz = random.choice(data)
         random_data.append(losowacz)
         data.remove(losowacz)
